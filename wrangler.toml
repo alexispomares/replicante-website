@@ -1,0 +1,8 @@
+name = "replicante-website"
+pages_build_output_dir = "out"
+compatibility_date = "2024-12-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "replicante-submissions"
+database_id = "7afec48a-b434-4768-8abd-21d9ce3e24ac"
