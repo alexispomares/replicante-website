@@ -7,7 +7,7 @@ const dmSerif = DM_Serif_Display({ weight: "400", subsets: ["latin"], variable: 
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-space-grotesk" });
 const jetbrains = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains" });
 
-const url = "https://replicante-website.pages.dev"
+const url = "https://replicante.eu"
 const title = "Replicante | AI Assistants for Luxury Real Estate"
 const description =
   "AI-powered virtual assistants that help luxury real estate firms in Lisbon qualify leads, answer buyer questions in any language, and work 24/7."
