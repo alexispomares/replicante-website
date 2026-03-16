@@ -25,13 +25,13 @@ export const metadata: Metadata = {
     url,
     siteName: title,
     type: "website",
-    images: [{ url: "/images/terrace-golden-hour.jpeg", width: 4160, height: 2377 }],
+    images: [{ url: "/images/banner.png", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     title,
     description,
-    images: ["/images/terrace-golden-hour.jpeg"],
+    images: ["/images/banner.png"],
   },
 }
 
