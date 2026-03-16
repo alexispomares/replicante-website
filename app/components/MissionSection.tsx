@@ -93,7 +93,7 @@ export default function MissionSection() {
         <StaggerChildren className="grid grid-cols-2 lg:grid-cols-4 gap-4">
           {stats.map((s) => (
             <StaggerItem key={s.label}>
-              <div className="px-6 py-10 md:px-8 md:py-12 bg-white rounded-xl border border-slate-200/60">
+              <div className="px-6 py-10 md:px-8 md:py-12 bg-white rounded-xl border border-slate-200/60 h-full">
                 <div className="font-display text-4xl md:text-5xl text-slate-900 leading-none">
                   <AnimatedCounter
                     value={s.value}
@@ -104,7 +104,7 @@ export default function MissionSection() {
                 <div className="font-mono text-[0.62rem] font-medium tracking-[0.15em] uppercase text-slate-400 mt-2">
                   {s.unit}
                 </div>
-                <div className="font-heading text-sm font-medium text-slate-600 mt-4">
+                <div className="font-heading text-sm font-medium text-slate-600 mt-4 min-h-[2.5rem]">
                   {s.label}
                 </div>
               </div>

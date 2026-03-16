@@ -6,7 +6,7 @@ export interface Env {
 
 const NOTIFY_TO = ["derek@replicante.eu", "alexis@replicante.eu"];
 const DASHBOARD_URL =
-  "https://dash.cloudflare.com/?to=/:account/d1/databases/7afec48a-b434-4768-8abd-21d9ce3e24ac";
+  "https://dash.cloudflare.com/?to=/:account/workers/d1/databases/7afec48a-b434-4768-8abd-21d9ce3e24ac"
 
 export function corsHeaders(origin?: string | null) {
   return {
