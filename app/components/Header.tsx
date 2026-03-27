@@ -8,7 +8,7 @@ import EonLogo from "./EonLogo";
 const links = [
   { href: "/#sofia-section", label: "Sofia" },
   { href: "/#how-it-works", label: "How It Works" },
-  { href: "/#about", label: "About" },
+  // { href: "/#about", label: "About" },
   { href: "/contact", label: "Contact" },
 ]
 

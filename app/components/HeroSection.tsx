@@ -68,11 +68,16 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 1.5 }}
           className="mt-6"
         >
-          <div className="inline-flex items-center gap-2.5 px-5 py-3 rounded-lg bg-white/[0.08] border border-white/[0.12] font-heading text-[0.82rem] font-semibold text-white/85">
+          <a
+            href="https://www.foxbusiness.com/real-estate/first-ever-ai-real-estate-agent-generates-100m-sales-portugal"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2.5 px-5 py-3 rounded-lg bg-white/[0.08] border border-white/[0.12] font-heading text-[0.82rem] font-semibold text-white/85 hover:bg-white/[0.12] hover:border-white/[0.18] transition-colors duration-200"
+          >
             <span className="w-2 h-2 rounded-full bg-crystal-rose animate-pulse" />
             Porta da Frente Christie&rsquo;s reported $100M in AI-attributed
             sales
-          </div>
+          </a>
         </motion.div>
       </div>
     </section>

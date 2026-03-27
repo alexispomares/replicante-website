@@ -66,12 +66,12 @@ export default function MissionSection() {
             </FadeIn>
             <FadeIn delay={0.2}>
               <p className="mt-8 text-lg text-slate-500 leading-relaxed">
-                Lisbon&rsquo;s luxury market serves buyers from 40+ nationalities
-                across every time zone. Yet most agencies rely on contact forms and
-                a promise that &ldquo;someone will get back to you.&rdquo; By
-                morning, those buyers have moved on. The 5-hour gap to the US East
-                Coast &mdash; now the #1 foreign buyer nationality &mdash; means
-                lost leads every single night.
+                Lisbon&rsquo;s luxury market serves buyers from 40+
+                nationalities across every time zone. Yet most agencies rely on
+                contact forms and a promise that &ldquo;someone will get back to
+                you.&rdquo; By morning, those buyers have moved on. The 5-hour
+                gap to the US East Coast &mdash; now the #1 foreign buyer
+                nationality &mdash; means lost leads every single night.
               </p>
             </FadeIn>
           </div>
@@ -125,7 +125,7 @@ export default function MissionSection() {
               </FadeIn>
               <FadeIn delay={0.1}>
                 <h2 className="font-display text-3xl md:text-4xl lg:text-[2.8rem] text-lavender-bright leading-[1.1]">
-                  An AI assistant that never sleeps, speaks six languages, and
+                  An AI assistant that never sleeps, speaks 50+ languages, and
                   knows Portuguese law
                 </h2>
               </FadeIn>
@@ -154,10 +154,7 @@ export default function MissionSection() {
                       desc: "0–100 lead scoring with instant agent alerts for hot leads",
                     },
                   ].map((item) => (
-                    <div
-                      key={item.title}
-                      className="flex items-start gap-3"
-                    >
+                    <div key={item.title} className="flex items-start gap-3">
                       <div className="w-1.5 h-1.5 rounded-full bg-crystal-rose mt-2 flex-shrink-0" />
                       <div>
                         <span className="font-heading text-sm font-semibold text-white">
@@ -289,7 +286,10 @@ export default function MissionSection() {
       </div>
 
       {/* How it works */}
-      <div id="how-it-works" className="relative overflow-hidden bg-paper scroll-mt-24">
+      <div
+        id="how-it-works"
+        className="relative overflow-hidden bg-paper scroll-mt-24"
+      >
         <div className="aurora-bg aurora-bg-sub" style={{ opacity: 0.35 }} />
         <div className="relative z-[1] px-6 py-24 md:px-16 md:py-32 lg:px-24 max-w-7xl mx-auto">
           <FadeIn>
@@ -365,5 +365,5 @@ export default function MissionSection() {
         </div>
       </div>
     </section>
-  );
+  )
 }

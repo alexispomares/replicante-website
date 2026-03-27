@@ -15,10 +15,10 @@ export default function Home() {
       <main className="flex-1">
         <HeroSection />
         <MissionSection />
-        <TeamSection employees={employees} />
+        {/* <TeamSection employees={employees} /> */}
         <CTASection />
       </main>
       <Footer />
     </div>
-  );
+  )
 }

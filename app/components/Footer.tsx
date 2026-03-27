@@ -6,7 +6,7 @@ import EmailSignup from "./EmailSignup";
 
 const navLinks = [
   { href: "/#product", label: "Product" },
-  { href: "/#about", label: "About" },
+  // { href: "/#about", label: "About" },
   { href: "/contact", label: "Contact" },
   { href: "/privacy-policy", label: "Privacy" },
 ];
@@ -33,7 +33,7 @@ export default function Footer() {
         </div>
 
         {/* Right column */}
-        <div className="flex flex-col justify-between gap-4 items-center md:items-end">
+        <div className="flex flex-col justify-between gap-4 items-center md:items-end max-w-sm md:ml-auto">
           <EmailSignup variant="footer" />
 
           <div className="flex items-center justify-between w-full">
